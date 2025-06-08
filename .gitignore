@@ -1,5 +1,21 @@
-.venv/
+# Environment variables
+.env
+
+# Python build artifacts
 __pycache__/
 *.pyc
-*.log
-.DS_Store
+
+# Virtual environment
+.venv/
+venv/
+
+# Whisper model files (can be large)
+*.pt # PyTorch model files (Whisper models)
+
+# Temporary audio files
+*.wav
+*.mp3
+
+# Porcupine cache/model files
+*.pv
+*.ppn
